@@ -15,8 +15,7 @@ class HornedBeasts extends React.Component {
         <p>{this.props.description}</p>
       </div>
     );
-  }
-}
+  } }
 
 
 export default HornedBeasts;
