@@ -8,6 +8,8 @@ Hi there! This project was completed for the Code Fellows 301 Lab 01 assignment.
 
 I am wondering how to make something happen only once in a component when you are calling it multiple times. For example- can I display the name of the section "Horned Beasts" in the horned beasts component file without having it repeat twice? 
 
+Is there an easier way to get CSS styles to apply to multiple components? Is it best practice to make a separate css file for each component?
+
 ## Feature Tracking
 Number and name of feature: Feature 1: Display Images
 
@@ -15,30 +17,30 @@ Estimate of time needed to complete: 1.5 hours
 
 Start time: 1:40 PM
 
-Finish time: _____
+Finish time: 2:05 PM
 
-Actual time needed to complete: _____
+Actual time needed to complete: 25 minutes
 
 ----------
 
-Number and name of feature: ________________________________
+Number and name of feature: Feature 2: Allow users to vote for their favorite beast
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 1.5 hours
 
-Start time: _____
+Start time: 2:20 PM
 
-Finish time: _____
+Finish time: 2:50 PM
 
-Actual time needed to complete: _____
+Actual time needed to complete: 30 minutes
 
 ---------
 
-Number and name of feature: ________________________________
+Number and name of feature: Feature 3: Bootstrap
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 1 hour
 
-Start time: _____
+Start time: 4:40 PM
 
-Finish time: _____
+Finish time: 5:45 PM
 
-Actual time needed to complete: _____
+Actual time needed to complete: 1 hour 5 minutes
