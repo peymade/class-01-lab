@@ -1,4 +1,6 @@
 import React from 'react';
+import './App.css';
+
 
 class Header extends React.Component {
   constructor(props) {
@@ -7,8 +9,8 @@ class Header extends React.Component {
 
   render() {
     return (
-      <div>
-        <h1>Welcome to Peyton's Lab 1</h1>
+      <div id="header">
+        <h1>Welcome to Peyton's Lab</h1>
       </div>
     );
   }

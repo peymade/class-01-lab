@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  display: flex;
 }
 
 .App-logo {
@@ -35,4 +36,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card-group {
+  text-align: center;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin: 5px;
+}
+
+
+#footer {
+  position:relative;
+  text-align: center;
+  margin-bottom: -550px;
+  height: 40px;
+  clear: both;
+  font-family: 'Lucida Sans', sans-serif;
+  background-color: lavender;
+}
+
+#header {
+  font-family: 'Lucida Sans', sans-serif;
+  text-align: center;
+  background-color: lightblue;
+  padding: 10px;
+  margin: 20px;
+}
+
+#images {
+  text-align: center;
+  font-family: 'Lucida Sans', sans-serif;
 }
