@@ -154,7 +154,7 @@ class Main extends React.Component {
     return (
       <div id="images">
         <h2>Your Friendly Neighborhood Horned Beasts</h2>
-        <div class="card-group">
+        <div className="card-group">
           {beastArray.map(beast => {
             return <HornedBeasts
               title={beast.title}

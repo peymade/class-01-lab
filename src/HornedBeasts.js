@@ -19,8 +19,8 @@ class HornedBeasts extends React.Component {
 
   render() {
     return (
-      <div>
-        <div class="card">
+      <div key="newRender">
+        <div key="RenderDiv" className="card">
           <RenderCard title={this.props.title} votes={this.state.votes} callback={this.voteBeast} src = {this.props.src} alt = {(this.props.alt) + ' Picture'} title = {this.props.title}/>
         </div>
       </div>
