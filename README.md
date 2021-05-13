@@ -11,6 +11,9 @@ I am wondering how to make something happen only once in a component when you ar
 Is there an easier way to get CSS styles to apply to multiple components? Is it best practice to make a separate css file for each component?
 
 ## Feature Tracking
+
+5/11/2021
+
 Number and name of feature: Feature 1: Display Images
 
 Estimate of time needed to complete: 1.5 hours
@@ -44,3 +47,17 @@ Start time: 4:40 PM
 Finish time: 5:45 PM
 
 Actual time needed to complete: 1 hour 5 minutes
+
+---------
+
+5/12/2021
+
+Number and name of feature: Feature 1: Display a Modal
+
+Estimate of time needed to complete: 1.5 hours
+
+Start time: 3:30 PM
+
+Finish time: 6:20 PM
+
+Actual time needed to complete: approx. 3 hours
