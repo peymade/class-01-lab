@@ -12,12 +12,14 @@ class SelectedBeast extends React.Component {
   render() {
     return (
       <div class="modal">
-        <Modal id="body" show={this.props.showVar} onHide={() => this.props.nowHide()}>
+        <Modal dialogClassName="modal-90w"
+          id="body" show={this.props.showVar}
+          onHide={() => this.props.nowHide()}>
           <Modal.Header closeButton>
             <Modal.Title>{this.props.title}</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <img src={this.props.src} width="600px"/>
+            <img src={this.props.src} width="600px" />
             <p>{this.props.description}</p>
           </Modal.Body>
           <Modal.Footer>

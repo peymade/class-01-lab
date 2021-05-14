@@ -10,20 +10,23 @@ class RenderCard extends React.Component {
   render() {
     return (
       <div>
-        <Card style={{width: '400px'}}>
+        <Card style={{ width: '400px' }}>
           <Card.Body>
-            <Card.Title>{this.props.title} 💗 {this.props.votes}</Card.Title>
-            <img 
-              onClick={() => this.props.nowShow(this.props.index)} 
-              src = {this.props.src} 
-              alt = {(this.props.alt) + ' Picture'} 
-              title = {this.props.title} height="200px"/>
+            <Card.Title onClick={this.props.voteFunction}
+            >{this.props.title} 💗 {this.props.votes}</Card.Title>
+            <img
+              onClick={() => this.props.nowShow(this.props.index)}
+              src={this.props.src}
+              alt={(this.props.alt) + ' Picture'}
+              title={this.props.title}
+              width="90%" />
             <Card.Text>{this.props.description}</Card.Text>
           </Card.Body>
         </Card>
       </div>
     );
-  }}
+  }
+}
 
 // When this is clicked, change the value of show to true
 

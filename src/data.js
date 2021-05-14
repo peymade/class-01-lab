@@ -4,6 +4,7 @@ const data = [
     'title': 'UniWhal',
     'description': 'A unicorn and a narwhal nuzzling their horns',
     'keyword': "narwhal",
+    'votes': 0,
     'horns': 1
   },
   {
@@ -11,6 +12,7 @@ const data = [
     'title': 'Rhino Family',
     'description': 'Mother (or father) rhino with two babies',
     'keyword': 'rhino',
+    'votes': 0,
     'horns': 2
   },
   {
@@ -18,6 +20,7 @@ const data = [
     "title": "Unicorn Head",
     "description": "Someone wearing a creepy unicorn head mask",
     "keyword": "unicorn",
+    'votes': 0,
     "horns": 1
   },
   {
@@ -25,6 +28,7 @@ const data = [
     "title": "UniLego",
     "description": "Lego figurine dressed in a unicorn outfit",
     "keyword": "unilego",
+    'votes': 0,
     "horns": 1
   },
   {
@@ -32,6 +36,7 @@ const data = [
     "title": "Basically a unicorn",
     "description": "A narwhal is basically a unicorn after all, right?",
     "keyword": "narwhal",
+    'votes': 0,
     "horns": 1
   },
   {
@@ -39,6 +44,7 @@ const data = [
     "title": "#truth",
     "description": "The truth behind narwhals",
     "keyword": "narwhal",
+    'votes': 0,
     "horns": 1
   },
   {
@@ -46,6 +52,7 @@ const data = [
     "title": "Baby Rhino",
     "description": "This is actually a figurine but it looks kinda real",
     "keyword": "rhino",
+    'votes': 0,
     "horns": 2
   },
   {
@@ -53,6 +60,7 @@ const data = [
     "title": "Cera",
     "description": "Three horns but still, horns. And who doesn't like The Land Before Time?",
     "keyword": "triceratops",
+    'votes': 0,
     "horns": 3
   },
   {
@@ -60,6 +68,7 @@ const data = [
     "title": "Narwhal costume",
     "description": "A woman wearing a blue narwhal costume",
     "keyword": "narwhal",
+    'votes': 0,
     "horns": 1
   },
   {
@@ -67,6 +76,7 @@ const data = [
     "title": "Rhino costume",
     "description": "Mascots have to get their costumes somewhere",
     "keyword": "rhino",
+    'votes': 0,
     "horns": 2
   },
   {
@@ -74,6 +84,7 @@ const data = [
     "title": "Believe",
     "description": "I believe in unicorns, do you?",
     "keyword": "unicorn",
+    'votes': 0,
     "horns": 1
   },
   {
@@ -81,6 +92,7 @@ const data = [
     "title": "Markhor",
     "description": "These wild goats eat snakes, then secrete a foam that locals fight over for the antivemon properties -- how cool is that?",
     "keyword": "markhor",
+    'votes': 0,
     "horns": 2
   },
   {
@@ -88,6 +100,7 @@ const data = [
     "title": "Baby markhor",
     "description": "Even the babies are adorable",
     "keyword": "markhor",
+    'votes': 0,
     "horns": 2
   },
   {
@@ -95,6 +108,7 @@ const data = [
     "title": "Mouflon",
     "description": "Those horns though",
     "keyword": "mouflon",
+    'votes': 0,
     "horns": 2
   },
   {
@@ -102,6 +116,7 @@ const data = [
     "title": "Addax",
     "description": "This guy is basically extinct but survives well in captivity, so they're frequently found in zoos",
     "keyword": "addax",
+    'votes': 0,
     "horns": 2
   },
   {
@@ -109,6 +124,7 @@ const data = [
     "title": "Baby mouflon",
     "description": "The cuteness that is a baby mouflon asleep",
     "keyword": "mouflon",
+    'votes': 0,
     "horns": 2
   },
   {
@@ -116,6 +132,7 @@ const data = [
     "title": "Happy Jackson's Chameleon",
     "description": "These are really common in Hawaii",
     "keyword": "chameleon",
+    'votes': 0,
     "horns": 2
   },
   {
@@ -123,6 +140,7 @@ const data = [
     "title": "Serious Jackson's Chameleon",
     "description": "This one is very serious.",
     "keyword": "chameleon",
+    'votes': 0,
     "horns": 3
   },
   {
@@ -130,6 +148,7 @@ const data = [
     "title": "Horned Lizard",
     "description": "Fave food: ants",
     "keyword": "lizard",
+    'votes': 0,
     "horns": 100
   },
   {
@@ -137,6 +156,7 @@ const data = [
     "title": "Smaug",
     "description": "Fan illustration of Smaug from 'The Hobbit'",
     "keyword": "dragon",
+    'votes': 0,
     "horns": 100
   }
 ];
