@@ -13,10 +13,9 @@ class HornedBeasts extends React.Component {
     };
   }
 
-  // voteBeast = () => {
-  //   this.setState({votes: this.state.votes + 1});
-
-  // }
+  voteBeast = () => {
+    this.setState({votes: this.state.votes + 1});
+  }
 
   render() {
     return (
@@ -28,7 +27,7 @@ class HornedBeasts extends React.Component {
             title={this.props.title} 
             votes={this.state.votes} 
             index={this.props.index}
-            // voteFunction={this.voteBeast}
+            voteFunction={this.voteBeast}
             src = {this.props.src} 
             alt = {(this.props.alt) + ' Picture'}
             title = {this.props.title}/>
@@ -39,3 +38,7 @@ class HornedBeasts extends React.Component {
 
 
 export default HornedBeasts;
+
+// Access the data array, and number of horns
+
+// If data[i].horns == input number, render it 
